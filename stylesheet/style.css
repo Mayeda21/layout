@@ -26,7 +26,7 @@ h3{
 nav{
     background-color:  #562EFF;
     text-align: center;
-    width: 14g40px;
+    width: 1440px;
     height: 94px; 
     display: flex;
     align-items: center;
@@ -56,12 +56,13 @@ main{
   flex-direction: column;
     align-items: center;
 }
-.container{
+.container ,.container-1{
     background-color:#ffffff;
     width: 870px;
     padding: 30px;   
     margin-top: 21px;
     border-radius: 5px;
+    
 }
 hr{
     border: 1px solid #D1D1D1;
@@ -128,22 +129,23 @@ height:117px}
     color: #562EFF;
 }
 /* Latest courses */
+.container-1{
+    height: 362px;
+}
 .courses{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-column-gap: 24px;
+    margin-top: 11px;
 }
 .course{
- width: 
-252.42px;
-height: 269.79px;
- left: 21.74%;
-right: 60.73%;
+padding-left: 30px;
 top: 73.77%;
 bottom: 4.12%;
+height:269.79px;
 background: #FFFFFF;
 border-radius: 5px;
-box-shadow: 0px 5.34229px 13.3557px rgba(0, 0, 0, 0.061);
+box-shadow: 0px 5px 13px rgba(0, 0, 0, 0.061);
 }
 .course-banner img{
   width: 224px;
