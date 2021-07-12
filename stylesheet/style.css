@@ -1,11 +1,56 @@
 /* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 /* common style and utilies */
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
 
     font-family: 'Roboto', sans-serif;
     background-color: #F3F1FF;
 }
+ nav img{
+    width: 40.42px;
+height: 51px;
+}
+.nav-icon{
+    display: flex;
+    margin-left: 285px;
+    align-items: center;
+}
+h3{
+    margin-left: 34px;
+}
+
+nav{
+    background-color:  #562EFF;
+    text-align: center;
+    width: 1240px;
+    height: 94px; 
+    display: flex;
+    align-items: center;
+  justify-content: space-around;
+    color: white;
+}
+ul a{
+ text-decoration: none;
+ color: white;  
+  margin-right: 36px;
+  margin-top: 19px;
+}
+.list{
+   display:flex; 
+}
+.ul{
+    margin-left: 452px; ;
+}
+.logo{
+   margin-right: 300px;
+    width: 51px;
+    height: 51px;
+}
+
 main{
     display: flex;
   flex-direction: column;
