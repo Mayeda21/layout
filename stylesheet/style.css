@@ -1,0 +1,139 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+/* common style and utilies */
+body{
+
+    font-family: 'Roboto', sans-serif;
+    background-color: #F3F1FF;
+}
+main{
+    display: flex;
+  flex-direction: column;
+    align-items: center;
+}
+.container{
+    background-color:#ffffff;
+    width: 870px;
+    padding: 30px;   
+    margin-top: 21px;
+    border-radius: 5px;
+}
+hr{
+    border: 1px solid #D1D1D1;
+    margin-bottom: 27px;
+}
+
+/* top players style */
+
+.top-players{
+margin-bottom: 30px;
+
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+     
+    /* grid-template-columns: 1fr 1fr 1fr; */
+  
+}
+.section-title{
+    color: #562EFF;
+    font-size: 24px;
+    margin-top: 3px;
+   
+}
+.player img{
+    width: 56px;
+    height: 56px;
+}
+.player{
+    display:flex;
+   align-items: center;
+}
+.player-name{
+    margin-left: 16px;
+    font-size: 18px;
+}
+/*--------------- to blog styles---------- */
+.blogs{
+    display: grid;
+    grid-template-columns:repeat(2,1fr) ;
+    grid-row-gap: 26px;
+}
+.blog .thumbnail img{
+    width:177px;
+height:117px}
+.blog{
+    display: flex;
+}
+.blog-info{
+   
+    margin-left: 16px;
+}
+.blog-title{
+    font-size: 20px;
+}
+.blog-author{
+    font-size:16px;
+     color:    #9F9F9F;
+}
+.blog-author a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #562EFF;
+}
+/* Latest courses */
+.courses{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 24px;
+}
+.course{
+ width: 
+252.42px;
+height: 269.79px;
+ left: 21.74%;
+right: 60.73%;
+top: 73.77%;
+bottom: 4.12%;
+background: #FFFFFF;
+border-radius: 5px;
+box-shadow: 0px 5.34229px 13.3557px rgba(0, 0, 0, 0.061);
+}
+.course-banner img{
+  width: 224px;
+height: 104px;
+left: 324px;
+top: 913px;
+}
+.course-rating{
+    display: flex;
+    justify-content: space-between;
+        align-items: center;
+}
+.fa-star{
+    font-style: 12px;
+} 
+.fa-star.filled{
+    color: #FFC014;
+}
+.fa-star.empty{
+    color: #AEAEAE;
+}
+.course-author{
+    color: #ED6B4F;
+}
+.rate{
+    font-size: 14.6913px;
+    color: #A2A2A2;
+}
+.course-duration
+{
+    font-size: 14px;
+    margin-left: 0;
+     color:  #ED6B4F;
+     margin-right: 18px;
+background-color: #FFE4E8;
+border-radius: 15px;
+padding: 5px;
+}
