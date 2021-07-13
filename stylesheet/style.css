@@ -16,7 +16,7 @@ height: 51px;
 }
 .nav-icon{
     display: flex;
-    margin-left: 285px;
+  
     align-items: center;
 }
 h3{
@@ -119,6 +119,7 @@ height:117px}
     margin-left: 16px;
 }
 .blog-title{
+    margin-left: 0;
     font-size: 20px;
 }
 .blog-author{
@@ -171,6 +172,8 @@ top: 913px;
 }
 .course-author{
     color: #ED6B4F;
+    margin-top: 7px;
+    margin-bottom: 20px;
 }
 .rate{
     font-size: 14.6913px;
@@ -186,3 +189,7 @@ background-color: #FFE4E8;
 border-radius: 15px;
 padding: 5px;
 }
+.course-title{
+    margin-left: 0;
+}
+
